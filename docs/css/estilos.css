@@ -1,0 +1,129 @@
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+
+}
+
+.contenedor {
+    display: flex;
+
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    background-color: seagreen;
+    width: 200px;
+    height: 100vh;
+    justify-content: center;
+    /* position: fixed; */
+}
+
+.ul-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* quita el efecto enlace */
+.ul-menu a {
+    color: seashell;
+    text-decoration: none;
+}
+
+.ul-menu a li {
+    list-style: none;
+    padding: 7px 0;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+#formulario {
+
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#formulario p {
+    align-self: flex-start;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    font-size: 40px;
+    font-weight: 500;
+
+}
+
+#formulario input {
+    padding: 8px;
+}
+
+.btn {
+    padding: 8px;
+    background-color: springgreen;
+    border: none;
+    width: 200px;
+}
+
+.mensajes {
+    background-color: red;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+/* otro html */
+
+.listado-clientes {
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    margin: 12px 0;
+}
+
+table {
+    border: 1px solid #000;
+}
+
+table td {
+    padding: 0 12px;
+}
+
+.acciones {}
+
+
+
+.estados {
+    display: flex;
+    border: none;
+}
+
+.estados a {
+    text-decoration: none;
+}
+
+.estados div {
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.editar {
+    color: green;
+    border: none;
+    cursor: pointer;
+}
+
+.eliminar {
+    color: red;
+    border: none;
+    cursor: pointer;
+}
+
+/* otro html */
